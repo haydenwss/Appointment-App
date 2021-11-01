@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { db } from "../firebase-config";
 import { useHistory } from 'react-router';
-import { Link } from 'react-router-dom'
 import styled from 'styled-components';
-import moment from 'moment';
 import AppointmentCard from '../components/AppointmentCard';
 import {
     collection,
